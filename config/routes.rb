@@ -9,7 +9,9 @@ Rails.application.routes.draw do
 
   namespace :api do
     get "/caps" => "parameters#capstring"
+    get "/caps_segment_params/:hippo" => "parameters#segstring" 
   end
+
 
 
 end

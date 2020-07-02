@@ -5,5 +5,10 @@ def capstring
   render "display.json.jb"
 end
 
+def segstring
+  @word = params["hippo"].upcase
+  render "display.json.jb"
+end
+
 
 end
